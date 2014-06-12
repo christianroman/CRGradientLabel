@@ -48,7 +48,7 @@ label.gradientColors = @[[UIColor colorWithRed:255/255.0f green:42/255.0f blue:1
 
 Requirements
 ----------
-* iOS 5.0 or higher
+* iOS 6.0 or higher
 * ARC
 
 ## License
