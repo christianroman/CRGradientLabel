@@ -7,6 +7,8 @@ Custom `UILabel` subclass which allows gradient coloured backgrounds.
 Installation
 -----
 
+There are two options:
+
 **CocoaPods**
 
 * Add the dependency to your Podfile:
@@ -31,13 +33,17 @@ An example of making a CRGradientLabel:
 
 ```objc
 CRGradientLabel *label = [[CRGradientLabel alloc] initWithFrame:CGRectMake(20, 50, 130, 40)];
-label.gradientColors = @[[UIColor colorWithRed:239/255.0f green:77/255.0f blue:182/255.0f alpha:1.0f],
-                             [UIColor colorWithRed:198/255.0f green:67/255.0f blue:252/255.0f alpha:1.0f]];
+label.gradientColors = @[[UIColor colorWithRed:239/255.0f green:77/255.0f blue:182/255.0f alpha:1.0f], [UIColor colorWithRed:198/255.0f green:67/255.0f blue:252/255.0f alpha:1.0f]];
 label.textAlignment = NSTextAlignmentCenter;
 label.textColor = [UIColor whiteColor];
 label.text = NSLocalizedString(@"CRGradientLabel", nil);
 label.font = [UIFont boldSystemFontOfSize:20.0f];
 [self.view addSubview:label];
+```
+
+Set the gradient colors via NSArray using the `gradientColors` property:
+```objc
+label.gradientColors = @[[UIColor colorWithRed:255/255.0f green:42/255.0f blue:104/255.0f alpha:1.0f], [UIColor colorWithRed:255/255.0f green:90/255.0f blue:58/255.0f alpha:1.0f]];
 ```
 
 Requirements
