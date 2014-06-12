@@ -28,7 +28,7 @@
 {
     [super viewDidLoad];
     
-    [self.view setBackgroundColor:[UIColor blackColor]];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     
     CRGradientLabel *label = [[CRGradientLabel alloc] initWithFrame:CGRectMake(20, 50, 130, 40)];
     label.gradientColors = @[[UIColor colorWithRed:239/255.0f green:77/255.0f blue:182/255.0f alpha:1.0f],
