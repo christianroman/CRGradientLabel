@@ -41,7 +41,7 @@ label.font = [UIFont boldSystemFontOfSize:20.0f];
 [self.view addSubview:label];
 ```
 
-Set the gradient colors via NSArray using the `gradientColors` property:
+Don't forget to set the gradient colors via `NSArray` using the `gradientColors` property:
 ```objc
 label.gradientColors = @[[UIColor colorWithRed:255/255.0f green:42/255.0f blue:104/255.0f alpha:1.0f], [UIColor colorWithRed:255/255.0f green:90/255.0f blue:58/255.0f alpha:1.0f]];
 ```
