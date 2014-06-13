@@ -71,8 +71,8 @@ gradientLabel.gradientColors = @[[UIColor colorWithRed:255/255.0f green:42/255.0
 Requirements
 ----------
 * iOS 7.0 or higher for Swift.
-* iOS 6.0 or higher for Objective-C
-* Demo app requires Xcode 6 and iOS 8.0
+* iOS 6.0 or higher for Objective-C.
+* Demo app requires Xcode 6 and iOS 8.0.
 
 ## License
 CRGradientLabel is released under the MIT license. See
