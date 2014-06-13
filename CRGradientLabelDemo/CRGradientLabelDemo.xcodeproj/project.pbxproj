@@ -11,7 +11,8 @@
 		22C7EE26194B68DB00F390C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C7EE25194B68DB00F390C9 /* Images.xcassets */; };
 		22C7EE32194B68DB00F390C9 /* CRGradientLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7EE31194B68DB00F390C9 /* CRGradientLabelDemoTests.swift */; };
 		22C7EE3C194B695200F390C9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7EE3B194B695200F390C9 /* MainViewController.swift */; };
-		22C7EE42194B8C6A00F390C9 /* CRGradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7EE41194B8C6A00F390C9 /* CRGradientLabel.swift */; };
+		22C7EE49194B9E9500F390C9 /* CRGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7EE46194B9E9500F390C9 /* CRGradientLabel.m */; };
+		22C7EE4A194B9E9500F390C9 /* CRGradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7EE48194B9E9500F390C9 /* CRGradientLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,9 @@
 		22C7EE30194B68DB00F390C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C7EE31194B68DB00F390C9 /* CRGradientLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRGradientLabelDemoTests.swift; sourceTree = "<group>"; };
 		22C7EE3B194B695200F390C9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		22C7EE41194B8C6A00F390C9 /* CRGradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRGradientLabel.swift; sourceTree = "<group>"; };
+		22C7EE45194B9E9500F390C9 /* CRGradientLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGradientLabel.h; sourceTree = "<group>"; };
+		22C7EE46194B9E9500F390C9 /* CRGradientLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRGradientLabel.m; sourceTree = "<group>"; };
+		22C7EE48194B9E9500F390C9 /* CRGradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRGradientLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,7 @@
 		22C7EE15194B68DB00F390C9 = {
 			isa = PBXGroup;
 			children = (
-				22C7EE40194B8C6A00F390C9 /* CRGradientLabel */,
+				22C7EE43194B9E9500F390C9 /* CRGradientLabel */,
 				22C7EE20194B68DB00F390C9 /* CRGradientLabelDemo */,
 				22C7EE2E194B68DB00F390C9 /* CRGradientLabelDemoTests */,
 				22C7EE1F194B68DB00F390C9 /* Products */,
@@ -109,13 +112,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		22C7EE40194B8C6A00F390C9 /* CRGradientLabel */ = {
+		22C7EE43194B9E9500F390C9 /* CRGradientLabel */ = {
 			isa = PBXGroup;
 			children = (
-				22C7EE41194B8C6A00F390C9 /* CRGradientLabel.swift */,
+				22C7EE44194B9E9500F390C9 /* Objective-C */,
+				22C7EE47194B9E9500F390C9 /* Swift */,
 			);
 			name = CRGradientLabel;
 			path = ../CRGradientLabel;
+			sourceTree = "<group>";
+		};
+		22C7EE44194B9E9500F390C9 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				22C7EE45194B9E9500F390C9 /* CRGradientLabel.h */,
+				22C7EE46194B9E9500F390C9 /* CRGradientLabel.m */,
+			);
+			path = "Objective-C";
+			sourceTree = "<group>";
+		};
+		22C7EE47194B9E9500F390C9 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				22C7EE48194B9E9500F390C9 /* CRGradientLabel.swift */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +238,8 @@
 			files = (
 				22C7EE24194B68DB00F390C9 /* AppDelegate.swift in Sources */,
 				22C7EE3C194B695200F390C9 /* MainViewController.swift in Sources */,
-				22C7EE42194B8C6A00F390C9 /* CRGradientLabel.swift in Sources */,
+				22C7EE49194B9E9500F390C9 /* CRGradientLabel.m in Sources */,
+				22C7EE4A194B9E9500F390C9 /* CRGradientLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
