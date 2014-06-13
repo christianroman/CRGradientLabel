@@ -38,7 +38,7 @@ gradientLabel.gradientColors = [UIColor(red: 239 / 255.0, green: 77 / 255.0, blu
 UIColor(red: 198 / 255.0, green: 67 / 255.0, blue: 252 / 255.0, alpha: 1.0)]
 gradientLabel.textAlignment = NSTextAlignment.Center
 gradientLabel.textColor = UIColor.whiteColor()
-gradientLabel.text = NSLocalizedString("Gradients", comment: "")
+gradientLabel.text = NSLocalizedString("CRGradientLabel", comment: "")
 gradientLabel.font = UIFont.boldSystemFontOfSize(20.0)
 self.view.addSubview(gradientLabel)
 ```
