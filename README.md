@@ -55,7 +55,6 @@ gradientLabel.font = [UIFont boldSystemFontOfSize:20.0f];
 ```
 
 Don't forget to set the gradient colors via an array using the `gradientColors` property:
-
 **Swift**:
 ```swift
 gradientLabel.gradientColors = [UIColor(red: 239 / 255.0, green: 77 / 255.0, blue:182 / 255.0, alpha: 1.0),
@@ -65,7 +64,7 @@ UIColor(red: 198 / 255.0, green: 67 / 255.0, blue: 252 / 255.0, alpha: 1.0)]
 **Objective-C**:
 ```objc
 gradientLabel.gradientColors = @[[UIColor colorWithRed:255/255.0f green:42/255.0f blue:104/255.0f alpha:1.0f], [UIColor colorWithRed:255/255.0f green:90/255.0f blue:58/255.0f alpha:1.0f]];
-```swift
+```
 
 Requirements
 ----------
