@@ -25,7 +25,7 @@ class CRGradientLabel: UILabel {
         self.gradientColors.enumerateObjectsUsingBlock({ object, index, stop in
             if object.isKindOfClass(UIColor) {
                 colors.addObject(object.CGColor)
-            } else if (CFGetTypeID(object) == CGColorGetTypeID()) {
+            } else if CFGetTypeID(object) == CGColorGetTypeID() {
                 colors.addObject(object)
             } else {
                 NSException(name: "CRGradientLabelError", reason: "Object in gradientColors array is not a UIColor or CGColorRef", userInfo: nil).raise()
