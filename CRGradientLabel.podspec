@@ -1,14 +1,14 @@
 Pod::Spec.new do |spec|
   spec.name         = 'CRGradientLabel'
-  spec.version      = '1.0.0'
+  spec.version      = '1.0.1'
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.homepage     = 'https://github.com/chroman/CRGradientLabel'
   spec.author       =  { 'Christian Roman' => 'chroman16@gmail.com' }
-  spec.summary      = 'Custom UILabel subclass with gradient coloured backgrounds.'
+  spec.summary      = 'Custom UILabel subclass with gradient coloured backgrounds, written in Swifts.'
   spec.source       =  { :git => 'https://github.com/chroman/CRGradientLabel.git', :tag => "#{spec.version}" }
-  spec.source_files = 'CRGradientLabel/*.{h,m}'
+  spec.source_files = 'CRGradientLabel/*.swift'
   spec.framework    = 'Foundation'
   spec.requires_arc = true
   spec.social_media_url = 'https://twitter.com/chroman'
-  spec.ios.deployment_target = '6.0'
+  spec.ios.deployment_target = '7.0'
 end
