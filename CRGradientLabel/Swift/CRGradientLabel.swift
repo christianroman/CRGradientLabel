@@ -8,15 +8,11 @@
 
 import UIKit
 
-class CRGradientLabel: UILabel {
+public class CRGradientLabel: UILabel {
     
-    var gradientColors: NSArray = NSArray()
-
-    init(frame: CGRect) {
-        super.init(frame: frame)
-    }
+    public var gradientColors: NSArray = NSArray()
     
-    override func drawRect(rect: CGRect)
+    override public func drawRect(rect: CGRect)
     {
         var context: CGContextRef = UIGraphicsGetCurrentContext()
         
