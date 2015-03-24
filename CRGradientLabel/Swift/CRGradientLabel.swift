@@ -11,10 +11,6 @@ import UIKit
 class CRGradientLabel: UILabel {
     
     var gradientColors: NSArray = NSArray()
-
-    init(frame: CGRect) {
-        super.init(frame: frame)
-    }
     
     override func drawRect(rect: CGRect)
     {
